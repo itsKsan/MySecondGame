@@ -5,7 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea15e9a2-ad4c-4056-a8e3-fefbd93d530d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MySecondGame/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/NavMeshManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/NavMeshManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MySecondGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MySecondGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/MainCharachter.psb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/MainCharachter.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Skeleton.psb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Skeleton.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Slime.psb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Slime.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Spear.psb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Spear.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Slime.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Slime.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST_ZONE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST_ZONE.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Skeleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Skeleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Slime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Slime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerActions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerActions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_/TestPallete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_/TestPallete.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +57,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Skeleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.h8man.2d.navmeshplus@4a5aec0a09/NavMeshComponents/Scripts/NavMeshExtension.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,14 +68,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="rider.run.widget.enabled.cache" value="false" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.5731707&quot;
+  }
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="G:\Unity Editor\2021.3.12f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\UnityProjects\Games\MySecondGame -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProjects\Games\MySecondGame" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -83,12 +127,31 @@
       <workItem from="1668611150632" duration="1441000" />
       <workItem from="1668680021799" duration="803000" />
       <workItem from="1668680913101" duration="163000" />
+      <workItem from="1668681476352" duration="611000" />
+      <workItem from="1668684874545" duration="53000" />
+      <workItem from="1668685360848" duration="928000" />
+      <workItem from="1669199889302" duration="3184000" />
+      <workItem from="1669409297094" duration="1622000" />
+      <workItem from="1669411033802" duration="851000" />
+      <workItem from="1669636596473" duration="1859000" />
+      <workItem from="1669643110373" duration="4103000" />
     </task>
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

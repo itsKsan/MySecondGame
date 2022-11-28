@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7889467796481493495}
   - component: {fileID: 7889467796481493494}
-  - component: {fileID: 7889467796481493256}
   - component: {fileID: 7889467796481493257}
   - component: {fileID: 4405222169648844859}
+  - component: {fileID: 7380849868027509705}
+  - component: {fileID: 7889467796481493256}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -52,30 +53,6 @@ CircleCollider2D:
   m_Offset: {x: 0.0023112744, y: -0.0011556149}
   serializedVersion: 2
   m_Radius: 0.15215729
---- !u!114 &7889467796481493256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7889467796481493493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cf826f708414de98b7fcc7a7a897619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderer: {fileID: 7889467797910661583}
-  maxHealth: 100
-  health: 0
-  speed: 0.2
-  timeBetweenMovements: 5
-  radius: 3
-  flashTime: 0.4
-  flashSpeed: 0.1
-  attackDistance: 1
-  maxChaseDistance: 3
-  timeBetweenAttacks: 1
-  currentState: 0
 --- !u!50 &7889467796481493257
 Rigidbody2D:
   serializedVersion: 4
@@ -117,6 +94,49 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!195 &7380849868027509705
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7889467796481493493}
+  m_Enabled: 1
+  m_AgentTypeID: -1372625422
+  m_Radius: 0.5
+  m_Speed: 2
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &7889467796481493256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7889467796481493493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf826f708414de98b7fcc7a7a897619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  movementSpeed: 2
+  timeBetweenMovements: 5
+  patrollingRadius: 5
+  flashTime: 0.4
+  flashSpeed: 0.1
+  attackDistance: 1
+  maxChaseDistance: 3
+  timeBetweenAttacks: 1
 --- !u!1 &7889467797910661581
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,7 +147,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7889467797910661582}
   - component: {fileID: 7889467797910661583}
-  - component: {fileID: 7083477394248926015}
   m_Layer: 0
   m_Name: GFX
   m_TagString: Untagged
@@ -202,29 +221,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7083477394248926015
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7889467797910661581}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.042389393, y: 0.04238957}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.73, y: 2.71}
-    newSize: {x: 3.73, y: 2.71}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.865251, y: 1.9469868}
-  m_EdgeRadius: 0
