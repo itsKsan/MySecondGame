@@ -16,7 +16,7 @@ namespace LivingEntity
             SpecialAttack
         }
         protected State CurrentState; // TODO : REMOVE SerializeField
-        private new SpriteRenderer[] gfx;
+        private SpriteRenderer[] gfx;
         
         [SerializeField] protected float timeBetweenMovements = 5f;
         [SerializeField] protected float patrollingRadius = 5f;
@@ -65,12 +65,14 @@ namespace LivingEntity
             Target = target;
         }
         
-        protected void RandomMovement()
+        protected  void RandomMovement()
         {
             if (Time.time > nextMoveTime)
             {
+                Vector2 localPos = transform.localPosition;
+                
                 nextMoveTime = Time.time + timeBetweenMovements;
-                newPosition = UtilsClass.GetRandomPosition(patrollingRadius);
+                newPosition = Random.insideUnitCircle * patrollingRadius + localPos;
                 Pathfinder.SetDestination(newPosition);
                 
             }

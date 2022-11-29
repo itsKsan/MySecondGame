@@ -5,43 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea15e9a2-ad4c-4056-a8e3-fefbd93d530d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/NavMeshManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/NavMeshManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Island.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Island.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/WorldMap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/WorldMap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/IslandBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/SpawnerManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/SpawnerManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/WorldMapBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/WorldMapBuilder.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MySecondGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MySecondGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/MainCharachter.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/MainCharachter.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Skeleton.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Skeleton.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Slime.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Slime.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Spear.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Spear.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Slime.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Slime.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST_ZONE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST_ZONE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Skeleton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Skeleton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Slime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Slime.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerActions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerActions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Skelet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Skelet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prafabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prafabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/TilemapBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapGenerator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/TilemapBuilder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/IslandBuilder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/Tileset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/Tileset/TileSet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/Tileset/TileSet.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_/TestPallete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_/TestPallete.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +45,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.h8man.2d.navmeshplus@4a5aec0a09/NavMeshComponents/Scripts/NavMeshExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@296d677c3b/Runtime/Tiles/RuleTile/RuleTile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -135,6 +123,10 @@
       <workItem from="1669411033802" duration="851000" />
       <workItem from="1669636596473" duration="1859000" />
       <workItem from="1669643110373" duration="4103000" />
+      <workItem from="1669651066271" duration="3868000" />
+      <workItem from="1669729020607" duration="111000" />
+      <workItem from="1669735920453" duration="594000" />
+      <workItem from="1669739607813" duration="4627000" />
     </task>
     <servers />
   </component>

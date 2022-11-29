@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 891611701438928273}
+  - component: {fileID: 986321467}
+  - component: {fileID: 986321468}
   m_Layer: 0
   m_Name: Skelet
   m_TagString: Untagged
@@ -32,6 +34,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &986321467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891611701438928272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fde774edbf54da419eabaf03991185d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 25
+  movementSpeed: 2
+  timeBetweenMovements: 5
+  patrollingRadius: 5
+  flashTime: 0.5
+  flashSpeed: 0.1
+--- !u!195 &986321468
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891611701438928272}
+  m_Enabled: 1
+  m_AgentTypeID: -1372625422
+  m_Radius: 0.5
+  m_Speed: 2.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &891611700460683973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65,7 +107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8232734276123260331, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: 2.203125
+      value: 2.2031252
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_RootOrder
@@ -73,11 +115,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.29
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.92
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_LocalPosition.z
@@ -125,7 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4354201703769393621, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: 2.238158
+      value: 2.2381582
       objectReference: {fileID: 0}
     - target: {fileID: -3656870628798135744, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_LocalPosition.x
@@ -213,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2323101229389925546, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: 2.1836994
+      value: 2.1836996
       objectReference: {fileID: 0}
     - target: {fileID: -1379052054174705737, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_Bounds.m_Center.x
@@ -221,7 +263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1379052054174705737, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: 2.20633
+      value: 2.2063303
       objectReference: {fileID: 0}
     - target: {fileID: -1206077889637927168, guid: ac438306620b5b647bc082dd70d92710, type: 3}
       propertyPath: m_LocalPosition.x

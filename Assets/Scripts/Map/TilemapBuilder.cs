@@ -1,10 +1,11 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
 
 namespace Map
 {
-    public class MapGenerator : MonoBehaviour
+    public class TilemapBuilder : MonoBehaviour
     {
         [Header("Map Settings")]
         [SerializeField] private int mapWidth;
@@ -19,15 +20,22 @@ namespace Map
     
         [Header("Tiles")]
         [SerializeField] private TileBase groundTile;
-        [SerializeField] private RuleTile waterTile;
-    
-    
+        [SerializeField] private TileBase waterTile;
+
+        public Dictionary<int, Vector3Int> GroundTilesDictionary { get; private set; }
+
         private int[,] _map;
 
+        private void Start()
+        {
+            GroundTilesDictionary = new Dictionary<int, Vector3Int>();
+        }
 
+        
         public void GenerateMap()
         {
             _map = new int[mapWidth, mapHeight];
+            
             RandomFillMap();
             SmoothMap();
             SetTiles();
@@ -45,13 +53,9 @@ namespace Map
             for (int y = 0; y < mapHeight; y ++) 
             {
                 if (x == 0 || x == mapWidth-1 || y == 0 || y == mapHeight -1) 
-                {
                     _map[x,y] = 1;
-                }
                 else 
-                {
                     _map[x,y] = (Random.Range(0,100) < waterPercent)? 1: 0;
-                }
             }
         }
 
@@ -96,8 +100,9 @@ namespace Map
 
         private void SetTiles()
         {
+            int counter = 0;
+            
             for (int x = 0; x < mapWidth; x++)
-            {
                 for (int y = 0; y < mapHeight; y++)
                 {
                     if (_map[x,y] == 1)
@@ -106,10 +111,12 @@ namespace Map
                     }
                     else
                     {
-                        groundTilemap.SetTile(new Vector3Int(x, y, 0), groundTile);
+                        var tilePosition = new Vector3Int(x, y, 0);
+                        groundTilemap.SetTile(tilePosition, groundTile);
+                        GroundTilesDictionary.Add(counter, tilePosition);
+                        counter++;
                     }
                 }
-            }
         }
     }
 }
