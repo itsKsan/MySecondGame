@@ -5,30 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea15e9a2-ad4c-4056-a8e3-fefbd93d530d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Island.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Island.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/WorldMap.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/WorldMap.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/IslandBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/SpawnerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/SpawnerManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/WorldMapBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/WorldMapBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Boat_Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Boat_Animations/Boat.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Boat_Animations/Boat.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Boat_Animations/Swimming.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Boat_Animations/Swimming.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Cursor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Small_boat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Small_boat.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prafabs/Boat.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prafabs/Boat.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/Boat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/Boat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/Cursor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/Cursor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/Island.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/Island/IslandsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map/Island/IslandsManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MySecondGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MySecondGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Skelet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prafabs/Enemies/Skelet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prafabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prafabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/TilemapBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapGenerator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/TilemapBuilder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/MapManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/IslandBuilder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/Tileset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/Tileset/TileSet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/Tileset/TileSet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_/TestPallete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_/TestPallete.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prafabs/Environment/Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prafabs/Environment/Rock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST_ZONE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST_ZONE.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WorldMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WorldMap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/LivingEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/LivingEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/PlayerAnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/PlayerAnimationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/IslandBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/Island/IslandBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/IslandBuilder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/Island/IslandBuilder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map/WorldMapBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map/WorldMapBuilder.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HDgVmbdWUsG8DUBV8xxuv453V3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -127,6 +134,8 @@
       <workItem from="1669729020607" duration="111000" />
       <workItem from="1669735920453" duration="594000" />
       <workItem from="1669739607813" duration="4627000" />
+      <workItem from="1669807213780" duration="10686000" />
+      <workItem from="1669886191283" duration="430000" />
     </task>
     <servers />
   </component>

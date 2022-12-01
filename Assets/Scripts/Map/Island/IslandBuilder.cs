@@ -1,7 +1,7 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
-namespace Map
+namespace Map.Island
 {
     public class IslandBuilder : MonoBehaviour
     {

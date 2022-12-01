@@ -1,10 +1,12 @@
 using System;
+using Map.Island;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
 
 namespace Map
 {
+    [RequireComponent(typeof(IslandsManager))]
     public class WorldMapBuilder : MonoBehaviour
     {
         [Header("Map Settings")]
@@ -21,8 +23,15 @@ namespace Map
         [SerializeField] private TileBase islandTile;
         [SerializeField] private TileBase waterTile;
 
+        private IslandsManager islandsManager;
+        
         private int[,] _map;
         private bool _enableSmoothing;
+
+        private void Awake()
+        {
+            islandsManager = GetComponent<IslandsManager>();
+        }
 
         private void Start()
         {
@@ -58,6 +67,8 @@ namespace Map
 
         private void SetTiles()
         {
+            var counter = 0;
+            
             for (int x = 0; x < mapWidth; x++)
                 for (int y = 0; y < mapHeight; y++)
                 {
@@ -67,10 +78,15 @@ namespace Map
                     }
                     else
                     {
-                        var tilePosition = new Vector3Int(x, y, 0);
-                        islandTilemap.SetTile(tilePosition, islandTile);
+                        var islandPosition = new Vector3Int(x, y, 0);
+                        islandTilemap.SetTile(islandPosition, islandTile);
+                        
+                        islandsManager.AddIslandToDictionary(counter, islandPosition);
+                        counter++;
                     }
                 }
+            
+            islandsManager.PrintIslandsInfo();
         }
     }
 }

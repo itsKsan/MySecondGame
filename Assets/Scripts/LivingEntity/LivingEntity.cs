@@ -18,7 +18,6 @@ namespace LivingEntity
             _health = maxHealth;
         }
 
-
         public virtual void TakeHit(float damage)
         {
             _health -= damage;
